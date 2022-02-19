@@ -1,6 +1,4 @@
-import './App.css';
-
-function App() {
+import "./App.css";
   return <div> NerdCard Landing Page</div>;
 }
 
