@@ -16,9 +16,7 @@ function Content() {
             <animated.div>
               {customer.customers.to((val) => Math.floor(val))}
             </animated.div>
-            <p className="text-13 font-semibold mb-[36px] md:text-16">
-              Customer
-            </p>
+            <p className="text-13 font-semibold mb-[36px]">Customer</p>
           </div>
         </div>
         <div className="flex items-start mb-16 gap-8">
@@ -27,11 +25,11 @@ function Content() {
             <animated.div>
               {card.cards.to((val) => Math.floor(val))}
             </animated.div>
-            <p className="text-13 font-semibold md:text-16">Cards Issued</p>
+            <p className="text-13 font-semibold">Cards Issued</p>
           </div>
         </div>
       </div>
-      <div className="text-13 flex flex-col w-[100%} md:mt-0 mt-[90px] font-semibold md:w-[30%] md:text-16 md:ml-[20%]">
+      <div className="text-13 flex flex-col w-[100%}, mt-[90px] font-semibold md:w-[30%]">
         <div className="check-content">
           <img src={checkIconMobile} alt="" />
           <p>Card reports sent to your phone every weeks</p>

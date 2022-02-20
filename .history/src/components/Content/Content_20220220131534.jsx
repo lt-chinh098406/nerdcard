@@ -32,11 +32,11 @@ function Content() {
         </div>
       </div>
       <div className="text-13 flex flex-col w-[100%} md:mt-0 mt-[90px] font-semibold md:w-[30%] md:text-16 md:ml-[20%]">
-        <div className="check-content">
+        <div className="check-content md:mx-0">
           <img src={checkIconMobile} alt="" />
           <p>Card reports sent to your phone every weeks</p>
         </div>
-        <div className="check-content">
+        <div className="check-content md:mx-0">
           <img src={checkIconMobile} alt="" />
           <p>No external fees</p>
         </div>

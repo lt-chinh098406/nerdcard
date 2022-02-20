@@ -7,7 +7,7 @@ function Slogan() {
       <div className="text-center md:cok-span-1 md:col-start-2">
         <p>
           Earn
-          <span className="dark:text-purple-300 text-purple-500"> More</span>
+          <span className="dark:text-purple-300 text-purple-500">More</span>
         </p>
         <p className=""> Pay Less</p>
         <button className="button text-white md:text-24 md: px-8 md: py-[8px]">

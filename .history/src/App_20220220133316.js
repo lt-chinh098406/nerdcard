@@ -32,7 +32,7 @@ function App() {
   }, [windowSize]);
 
   return (
-    <div className="dark:text-white text-black overflow-auto font-sora h-screen px-4 py-8 bg-gradient-to-b dark:from-purple-900 dark:to-purple-700 from-white to-pink-500  md:px-20">
+    <div className="text-white overflow-auto font-sora h-screen px-4 py-8 bg-gradient-to-b dark:from-purple-900 dark:to-purple-700 from-white to-pink-500  md:px-20">
       <NavBar isMobile={isMobile} />
       <Slogan />
       <Content />
